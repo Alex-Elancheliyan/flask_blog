@@ -6,7 +6,7 @@ from firstproject.forms import RegisterUser, LoginForm, UpdateAccountForm, PostF
 from firstproject import app, bcrypt, db
 from flask_login import login_user, current_user, logout_user, login_required
 
-
+#ROUTES
 @app.route('/')
 @app.route('/home')  
 #TWO Routes handled by same function
